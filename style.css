@@ -1,0 +1,181 @@
+*{margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration:none;}
+/* main container div */
+#main {background: linear-gradient(45deg,#c1c8e4,#5ab9ea,#8860d0);
+    position: relative;
+    height: 41rem;
+    width:63rem;
+}
+/* Navigation side bar */
+.nav {
+    position: absolute;
+    top: 46px;
+    width: 70px;
+    height: 560px;
+    background: #ffffff;}
+/* Main menu button */
+.menu {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    color: white;
+   background:linear-gradient(90deg,#8860d0,#5680e9);
+    justify-content: center;
+    align-items: center;
+}
+.menu:hover{
+    font-size: 40px;
+}
+ul { margin-top: 80px;}
+/* navigation icons */
+ul li a>i {
+    display: flex;
+    float: right;
+    width: 70px;
+    flex-wrap: wrap;
+    color: rgb(170,168,169);
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+ul li a>i:hover{
+    color:#3aafa9;
+    font-size: 35px;
+}
+/* Cloud Storage icon */
+.cd {
+    font-size: 45px;
+    color:#3aafa9 ;
+    display: inline-flex;
+    width: 70px;
+    margin-top: 115px;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* Image container */
+.pic {background:linear-gradient(45deg,red,blue);
+background: linear-gradient(90deg,#8860d0,#5680e9);
+        position: absolute;
+        width: 400px;
+        height: 620px;
+        top: 15px;
+        left: 70px;
+}
+/* only left side shadow */
+ .pic:before {
+       box-shadow: -20px 0 20px -20px #8860d0 inset;
+            content: " ";
+            height: 100%;
+            left: -20px;
+            position: absolute;
+            top: 0;
+            width: 20px;
+          }
+/*only right side shadow */
+ .pic:after {
+       box-shadow: 20px 0 20px -20px #5680e9 inset;
+            content: " ";
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: -20px;
+            width: 20px;
+          }
+/* Display picture in portfolio */
+.pic img {
+    position: absolute;
+    width: 400px;
+    height: 620px;}
+/* About us Working */
+h1 {
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 30px;
+    color: #def2f1;
+    font-size: 40px;
+}
+
+.icon {
+    position: absolute;
+    top: 515px;
+    left: 135px;
+}
+.icon i {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 35px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.icon i:hover{
+    font-size: 20px;
+    color:#3aafa9;
+}
+.scrollbar{
+    position : absolute ;
+    background :#ffffff;
+    left: 470px;
+    top: 46px;
+    width: 495px;
+     height:560px;
+     color:grey;
+        overflow-x:hidden;
+        overflow-y:scroll;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:white;
+  display:none;
+ 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#3aafa9;  
+  border-radius:15%;
+ 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+/* Objective */
+ p{line-height: 140%;
+ margin:15px;
+ padding:15px;}
+ /* create horizontal line after paragraph */
+hr{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 40px;
+    padding: 0;
+}
+/* offer my services */
+table{overflow :hidden;
+width: 490px;
+height:220px;
+    margin-top:20px;
+    padding:20px;
+}
+table th{
+    text-align:left;
+    font-size:30px;
+    color:black;
+}
+table td i{
+    font-size:30px;
+    color:#3aafa9;
+}
+table td h2{
+    color:black;
+}
+b{font-size:20px;
+    color:#3aafa9;}
